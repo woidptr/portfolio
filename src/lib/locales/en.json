@@ -1,0 +1,42 @@
+{
+    "nav": {
+        "terminal": "terminal",
+        "projects": "projects",
+        "skills": "skills",
+        "about": "about"
+    },
+    "footer": {
+        "navigate": "navigate",
+        "language": "change language"
+    },
+    "about": {
+        "bio": {
+            "title": "Bio",
+            "description": "I am a software developer passionate about building fast, minimalist, and interactive user experiences."
+        },
+        "experience": {
+            "title": "Work Experience",
+            "dcuk": {
+                "role": "Backend Developer",
+                "company": "Datové Centrum Ústeckého kraje, p.o.",
+                "period": "2025 - Present",
+                "description": "Built backend api applications using Python and FastAPI"
+            }
+        },
+        "education": {
+            "title": "Education",
+            "ujep": {
+                "degree": "Applied Informatics",
+                "school": "University of Jan Evangelista in Ústí nad Labem",
+                "period": "2023 - Present"
+            }
+        }
+    },
+    "projectsData": {
+        "heading": "My Projects",
+        "loom": {
+            "name": "Loom",
+            "description": "Injectable DLL mod for Minecraft: Bedrock Edition written in c++"
+        }
+    }
+}

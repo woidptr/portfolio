@@ -1,0 +1,42 @@
+{
+    "nav": {
+        "terminal": "термінал",
+        "projects": "проєкти",
+        "skills": "скіли",
+        "about": "про_мене"
+    },
+    "footer": {
+        "navigate": "навігація",
+        "language": "змінити мову"
+    },
+    "about": {
+        "bio": {
+            "title": "Біо",
+            "description": "Привіт! Я розробник програмного забезпечення, який любить створювати швидкі, мінімалістичні та інтерактивні програми."
+        },
+        "experience": {
+            "title": "Досвід Роботи",
+            "dcuk": {
+                "role": "Backend Розробник",
+                "company": "Datové Centrum Ústeckého kraje, p.o.",
+                "period": "2025 - Дотепер",
+                "description": "Розробляю Backend API-застосунки з використанням Python та FastAPI."
+            }
+        },
+        "education": {
+            "title": "Освіта",
+            "ujep": {
+                "degree": "Прикладна Інформатика",
+                "school": "Університет Jana Evangelisty Purkyně в Ústí nad Labem",
+                "period": "2023 - Дотепер"
+            }
+        }
+    },
+    "projectsData": {
+        "heading": "Мої Проєкти",
+        "loom": {
+            "name": "Loom",
+            "description": "Мод для гри Minecraft: Bedrock Edition написаний в мові програмування c++"
+        }
+    }
+}
