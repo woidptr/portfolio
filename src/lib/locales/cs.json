@@ -9,6 +9,9 @@
         "navigate": "navigace",
         "language": "změnit jazyk"
     },
+    "skills": {
+        "title": "Klíčové Kompetence"
+    },
     "about": {
         "bio": {
             "title": "Bio",

@@ -2,8 +2,8 @@ name: Deploy on Github Pages
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - "main"
 
 permissions:
   contents: read
