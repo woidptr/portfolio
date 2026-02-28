@@ -9,6 +9,9 @@
         "navigate": "навігація",
         "language": "змінити мову"
     },
+    "skills": {
+        "title": "Основні Скіли"
+    },
     "about": {
         "bio": {
             "title": "Біо",

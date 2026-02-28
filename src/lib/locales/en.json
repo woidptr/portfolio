@@ -9,6 +9,9 @@
         "navigate": "navigate",
         "language": "change language"
     },
+    "skills": {
+        "title": "Core Competencies"
+    },
     "about": {
         "bio": {
             "title": "Bio",
