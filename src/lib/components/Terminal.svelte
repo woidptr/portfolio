@@ -38,9 +38,21 @@
       if (terminalRef) terminalRef.scrollTop = terminalRef.scrollHeight;
     }
   }
+
+  function focusOnMount(node: HTMLInputElement) {
+    setTimeout(() => node.focus(), 0);
+  }
+
+  let inputElement: HTMLInputElement;
+
+  function focusInput() {
+    if (inputElement) inputElement.focus();
+  }
 </script>
 
-<div class="h-full w-full p-4 overflow-y-auto" bind:this={terminalRef}>
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div class="h-full w-full p-4 overflow-y-auto" bind:this={terminalRef} onclick={focusInput}>
   <div class="max-w-3xl flex flex-col gap-1">
     {#each history as line}
       {#if line.type === 'command'}
@@ -59,7 +71,8 @@
         onkeydown={handleTerminalSubmit}
         autocomplete="off"
         spellcheck="false"
-        autofocus
+        bind:this={inputElement}
+        use:focusOnMount
         class="bg-transparent border-none outline-none text-[#a3a3a3] flex-grow w-full font-inherit"
       />
     </div>
