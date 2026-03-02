@@ -15,7 +15,7 @@
     "about": {
         "bio": {
             "title": "Bio",
-            "description": "Jsem softwarový vývojář, který se nadšeně věnuje vytváření rychlých, minimalistických a interaktivních uživatelských zkušeností."
+            "description": "Jsem vývojář, kterého baví nízkoúrovňové programování. Většinu času píšu v C a C++ a obzvlášť mě zajímá programování grafiky a hledání způsobů, jak donutit grafické karty renderovat věci co nejefektivněji. I když se hrozně rád hrabu ve správě paměti, socketech a nízkoúrovňových sítích, cítím se docela pohodlně i výš ve stacku. Píšu backendová API a vyznám se v moderním webovém vývoji (jako je tenhle web ve SvelteKitu, na který se zrovna díváte). Zkrátka mě baví vědět, jak přesně věci fungují \"pod kapotou\", od surového síťového paketu až po samotný prohlížeč."
         },
         "experience": {
             "title": "Pracovní zkušenosti",

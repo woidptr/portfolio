@@ -15,7 +15,7 @@
     "about": {
         "bio": {
             "title": "Bio",
-            "description": "I am a software developer passionate about building fast, minimalist, and interactive user experiences."
+            "description": "I'm a developer who enjoys the low-level side of programming. Most of my time is spent writing C and C++, and I'm especially passionate about graphics programming and figuring out how to make GPUs render things efficiently. Even though I love being down in the weeds with memory management, sockets, and low-level networking, I'm also pretty comfortable higher up the stack. I build backend APIs and know my way around modern web development (like the SvelteKit site you're looking at right now). Basically, I like knowing exactly how things work under the hood, from the raw network packet all the way up to the browser."
         },
         "experience": {
             "title": "Work Experience",
