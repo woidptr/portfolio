@@ -1,6 +1,10 @@
 <script lang="ts">
   import { tick } from 'svelte';
 
+  // import { TerminalState } from './terminal.svelte.ts';
+
+  // const terminal = new TerminalState();
+
   interface HistoryLine {
     type: 'command' | 'output';
     text: string;
@@ -14,7 +18,7 @@
   const commands: Record<string, string> = {
     help: 'Commands: clear, hello, contact',
     hello: 'Hello there! Welcome to my portfolio.',
-    contact: 'Email me at: dev@example.com'
+    contact: 'Email me at: woidptr@gmail.com'
   };
 
   let input: string = $state('');
